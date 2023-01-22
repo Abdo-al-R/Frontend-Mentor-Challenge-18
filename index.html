@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="public/style.css" />
+
+    <title>Chat app | Frontend Mentor</title>
+  </head>
+  <body>
+    <div class="blue-bg"></div>
+    <main>
+      <div class="iphone-frame">
+        <div class="iphone-screen">
+          <div class="chat-app">
+            <div class="app-head">
+              <div class="container">
+                <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+                <img src="images/avatar.jpg" alt="head shot of Samuel" />
+                <p class="personal-info">
+                  <span class="name">Samuel Green</span
+                  ><span class="job">Available to Walk</span>
+                </p>
+              </div>
+              <span
+                ><i class="fa-solid fa-ellipsis-vertical" aria-hidden="true"></i
+              ></span>
+            </div>
+            <div class="chat-body">
+              <p class="left-chat">
+                That sounds great. I’d be happy with that.
+              </p>
+              <p class="left-chat">
+                Could you send over some pictures of your dog, please?
+              </p>
+              <div class="dogs-pics">
+                <img src="images/dog-image-1.jpg" alt="dog" />
+                <img src="images/dog-image-2.jpg" alt="dog" />
+                <img src="images/dog-image-3.jpg" alt="dog" />
+              </div>
+              <p class="right-chat">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="right-chat">Can you make it?</p>
+              <p class="left-chat">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+              <div class="services">
+                <label>
+                  <input type="radio" name="walk-price" />
+                  <span class="time">30 minute walk</span>
+                </label>
+
+                <span class="price">$29</span>
+              </div>
+              <div class="services">
+                <label>
+                  <input type="radio" name="walk-price" />
+                  <span class="time">1 hour walk</span>
+                </label>
+
+                <span class="price">$49</span>
+              </div>
+              <label for="text">
+                <input type="text" placeholder="Type a message…" id="text" />
+                <a href="#" class="submit"
+                  ><i class="fa-solid fa-angle-right" aria-hidden="true"></i
+                ></a>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h1>Simple booking</h1>
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://www.frontendmentor.io/profile/Abdo-al-R" target="_blank">AbdulRhman</a>.
+        </div>
+      </div>
+    </main>
+    <div class="white-bg"></div>
+  </body>
+</html>
